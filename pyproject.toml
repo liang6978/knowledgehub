@@ -1,0 +1,13 @@
+[project]
+name = "knowledgehub"
+version = "0.1.0"
+description = "企业内部知识库问答系统"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "alembic>=1.18,<2",
+    "asyncpg>=0.32.0",
+    "fastapi>=0.162.0",
+    "pydantic-settings>=2.16.1",
+    "sqlalchemy[asyncio]>=2.0,<2.1",
+    "uvicorn>=0.54.0",
+]
